@@ -1,0 +1,444 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('Kalam-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Regular.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ESSENTIAL */
+
+img:fullscreen {
+  transition: all 0.5s ease-in-out;
+}
+
+div {
+  animation: fade 1s ease-in-out forwards;
+}
+
+body {
+  zoom: 0.991;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* LINKS */
+
+a:link {
+  color: #2A2B2A;
+  text-decoration: none;
+}
+a:visited {
+  color: #2A2B2A;
+  text-decoration: none;
+}
+a:hover {
+  color: #F58549;
+  text-decoration: none;
+}
+a:active {
+  color: #F58549;
+  text-decoration: none;
+}
+
+.agallery:link {
+  color: #FC60A8;
+  text-decoration: none;
+}
+
+.agallery:visited {
+  color: #FC60A8;
+  text-decoration: none;
+}
+
+.agallery:hover {
+  color: #F58549;
+  text-decoration: none;
+}
+
+.agallery:active {
+  color: #F58549;
+  text-decoration: none;
+}
+
+.alink:link {
+  color: white;
+  text-decoration: none;
+}
+
+.alink:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.alink:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.alink:active {
+  color: #F58549;
+  text-decoration: none;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* DESIGN */
+
+.banner {/* Banner */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.menu {/* Design Sticks */
+position: absolute;
+width: 1727px;
+height: 22px;
+left: 96px;
+top: 442px;
+}
+
+.about {/* ABOUT */
+    position: absolute;
+    width: 79px;
+    height: 60px;
+    left: 1050px;
+    top: 424px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A2B2A;
+}
+
+.girimi {/* GIRIMI */
+    position: absolute;
+    width: 78px;
+    height: 60px;
+    left: 933px;
+    top: 423px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A2B2A;
+}
+
+.gallery {/* GALLERY */
+    position: absolute;
+    width: 103px;
+    height: 60px;
+    left: 791px;
+    top: 424px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A2B2A;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* SNIPPET */
+
+.container {/* CONTAINER */
+    box-sizing: border-box;
+    position: absolute;
+    width: 1720px;
+    height: 1201px;
+    left: 100px;
+    top: 527px;
+}
+
+.gallerylink {/* GALLERY LINK */
+    position: absolute;
+    width: 801px;
+    height: 642.26px;
+    left: 194px;
+    top: 1037.74px;
+}
+
+.message {/* MESSAGE */
+position: absolute;
+width: 406px;
+height: 247px;
+left: 392px;
+top: 1235px;
+}
+
+.gallerymessage {/* View the Gallery */
+    position: absolute;
+    width: 332.1px;
+    height: 41.77px;
+    left: 492px;
+    top: 1410px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FC60A8;
+}
+
+.imagebr { /* IMAGE BR */
+    position: absolute;
+    width: 717px;
+    height: 469px;
+    left: 1008px;
+    top: 1211px;
+}
+
+.imagetr {/* IMAGE TR */
+position: absolute;
+width: 349px;
+height: 618px;
+left: 1376px;
+top: 576px;
+}
+
+.imagemid {/* IMAGE MID */
+position: absolute;
+width: 349px;
+height: 618px;
+left: 1008px;
+top: 576px;
+}
+
+.imagetl {/* IMAGE TL */
+position: absolute;
+width: 800.66px;
+height: 452px;
+left: 194px;
+top: 576px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUOTE */
+
+.quote {/* Design Sticks */
+position: absolute;
+width: 1728px;
+height: 150px;
+left: 96px;
+top: 1800px;
+}
+
+.quotemessage { /* QUOTE */
+    position: absolute;
+    height: 60px;
+    left: 330px;
+    top: 1848px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F58549;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUICK GALLERY */
+
+.containergallery {/* CONTAINER */
+    box-sizing: border-box;
+    position: absolute;
+    width: 1794px;
+    height: 1056px;
+    left: 63px;
+    top: 2022px;
+}
+
+.cyberpunk { /* CYBERPUNK */
+    position: absolute;
+    width: 445px;
+    height: 92px;
+    left: 1400px;
+    top: 2503px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.fallout { /* FALLOUT */
+    position: absolute;
+    width: 305px;
+    height: 92px;
+    left: 883px;
+    top: 2503px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.skyrim { /* SKYRIM */
+    position: absolute;
+    width: 240px;
+    height: 92px;
+    left: 274px;
+    top: 2503px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cyberpunklink {/* CYBERPUNK LINK */
+position: absolute;
+width: 566px;
+height: 1000px;
+left: 1243px;
+top: 2049px;
+}
+
+.falloutlink {/* FALLOUT LINK */
+position: absolute;
+width: 566px;
+height: 1000px;
+left: 677px;
+top: 2049px;
+}
+
+.skyrimlink {/* SKYRIM LINK */
+position: absolute;
+width: 566px;
+height: 999px;
+left: 111px;
+top: 2050px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUOTE 2 */
+
+.quote2 {/* Design Sticks 2 */
+    position: absolute;
+    width: 1728px;
+    height: 150px;
+    left: 96px;
+    top: 3177px;
+}
+
+.quote2message {/* QUOTE */
+position: absolute;
+height: 60px;
+left: 566px;
+top: 3228px;
+
+font-family: 'Kalam';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 57px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F58549;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ENDING */
+
+.rejects { /* Rejects Gallery */
+    position: absolute;
+    width: 1165px;
+    height: 644px;
+    left: 377px;
+    top: 3425px;
+}
+
+.enjoy { /* ENJOY YOUR STAY! */
+    position: absolute;
+    width: 332.1px;
+    height: 41.77px;
+    left: 842px;
+    top: 3726px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 61px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F8F4E3;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* FOOTER */
+
+.designcopy { /* Design Sticks */
+    position: absolute;
+    width: 1728px;
+    height: 22px;
+    left: 85px;
+    top: 4170px;
+}
+
+.copy { /* COPYRIGHT @ Geremy S. Baylon */
+    position: absolute;
+    width: 703px;
+    height: 92px;
+    left: 776px;
+    top: 4190px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}

@@ -1,0 +1,257 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('Kalam-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Regular.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ESSENTIAL */
+  
+div {
+    animation: fade 1s ease-in-out forwards;
+}
+
+body {
+    zoom: 0.935;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* LINKS */
+
+a:link {
+    color: #2A2B2A;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2A2B2A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F58549;
+    text-decoration: none;
+}
+
+a:active {
+    color: #F58549;
+    text-decoration: none;
+}
+
+.menu { /* Design Sticks */
+    position: absolute;
+    width: 1727px;
+    height: 22px;
+    left: 97px;
+    top: 1939px;
+}
+
+.about {/* ABOUT */
+position: absolute;
+width: 79px;
+height: 60px;
+left: 1048px;
+top: 1921px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2A2B2A;
+}
+
+.girimi {/* GIRIMI */
+position: absolute;
+width: 78px;
+height: 60px;
+left: 931px;
+top: 1920px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2A2B2A;
+}
+
+.gallery {/* GALLERY */
+position: absolute;
+width: 103px;
+height: 60px;
+left: 789px;
+top: 1921px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #2A2B2A;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ME */
+
+.banner { /* Banner */
+    position: absolute;
+    height: 740px;
+    left: 0px;
+    top: 0px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ABOUT */
+
+.aboutme {/* ABOUT */
+position: absolute;
+width: 1662px;
+height: 263px;
+left: 140px;
+top: 793px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* INSPIRATION */
+
+.inspiration {/* ABOUT */
+position: absolute;
+width: 1662px;
+height: 263px;
+left: 161px;
+top: 1225px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 55px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.inspirationtitle {/* TITLE */
+position: absolute;
+width: 403px;
+height: 64px;
+left: 139px;
+top: 1158px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 147px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* TOOLS USED */
+
+.tools { /* ABOUT */
+    position: absolute;
+    width: 1662px;
+    height: 263px;
+    left: 162px;
+    top: 1607px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.toolstitle { /* TITLE */
+    position: absolute;
+    width: 387px;
+    height: 62px;
+    left: 140px;
+    top: 1541px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 147px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* COPYRIGHT */
+
+.copy { /* COPYRIGHT @ Geremy S. Baylon */
+    position: absolute;
+    width: 703px;
+    height: 92px;
+    left: 785px;
+    top: 2058px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.designcopy { /* Design Sticks */
+    position: absolute;
+    width: 1728px;
+    height: 22px;
+    left: 95px;
+    top: 2016px;
+}

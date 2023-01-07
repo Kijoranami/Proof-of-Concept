@@ -1,0 +1,396 @@
+/* FONTS */
+
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Kalam';
+    src: url('Kalam-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Khand';
+    src: url('Khand-Regular.ttf') format('truetype');
+}
+
+/*----------------------------------------------------------------------*/
+
+/* ESSENTIAL */
+
+img:fullscreen {
+    transition: all 0.5s ease-in-out;
+  }
+  
+div {
+    animation: fade 1s ease-in-out forwards;
+}
+
+body {
+    zoom: 0.935;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* LINKS */
+
+a:link {
+    color: #2A2B2A;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #2A2B2A;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F58549;
+    text-decoration: none;
+}
+
+a:active {
+    color: #F58549;
+    text-decoration: none;
+}
+
+.agallery:link {
+    color: #FC60A8;
+    text-decoration: none;
+}
+
+.agallery:visited {
+    color: #FC60A8;
+    text-decoration: none;
+}
+
+.agallery:hover {
+    color: #F58549;
+    text-decoration: none;
+}
+
+.agallery:active {
+    color: #F58549;
+    text-decoration: none;
+}
+
+.alink:link {
+    color: white;
+    text-decoration: none;
+}
+
+.alink:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.alink:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.alink:active {
+    color: #F58549;
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* MENU */
+
+.menu { /* Design Sticks */
+    position: absolute;
+    width: 1727px;
+    height: 22px;
+    left: 97px;
+    top: 87px;
+}
+
+.about { /* ABOUT */
+    position: absolute;
+    width: 79px;
+    height: 60px;
+    left: 1050px;
+    top: 69px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A2B2A;
+}
+
+.girimi {/* GIRIMI */
+    position: absolute;
+    width: 78px;
+    height: 60px;
+    left: 933px;
+    top: 68px;
+
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #2A2B2A;
+}
+
+.gallery {/* GALLERY */
+    position: absolute;
+    width: 103px;
+    height: 60px;
+    left: 791px;
+    top: 69px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2A2B2A;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* INTRODUCTION */
+
+.introduction { /* INTRODUCTION */
+    position: absolute;
+    width: 757px;
+    height: 150px;
+    left: 783px;
+    top: 494px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F8F4E3;
+}
+
+.introductionp { /* INTRODUCTION */
+    position: absolute;
+    width: 1643px;
+    height: 704px;
+    left: 138px;
+    top: 217px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUOTE */
+
+.quoted1 { /* Design Sticks */
+    position: absolute;
+    width: 1728px;
+    height: 150px;
+    left: 96px;
+    top: 1009px;
+}
+
+.quote1 { /* QUOTE */
+    position: absolute;
+    height: 60px;
+    left: 282px;
+    top: 1054px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F58549;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* SKYRIM LINK */
+
+.skyrimtext { /* SKYRIM */
+    position: absolute;
+    width: 757px;
+    height: 150px;
+    left: 876px;
+    top: 1524px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 98px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.skyrimgallery { /* SKYRIM GALLERY */
+    position: absolute;
+    width: 1247px;
+    height: 704px;
+    left: 336px;
+    top: 1247px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUOTE 2 */
+
+.quoted2 { /* Design Sticks */
+    position: absolute;
+    width: 1728px;
+    height: 150px;
+    left: 96px;
+    top: 2067px;
+}
+
+.quote2 { /* QUOTE */
+    position: absolute;
+    height: 60px;
+    left: 762px;
+    top: 2117px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #F58549;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* FALLOUT LINK */
+
+.falloutgallery {/* FALLOUT GALLERY */
+position: absolute;
+width: 1247px;
+height: 704px;
+left: 336px;
+top: 2305px;
+}
+
+.fallouttext {/* FALLOUT */
+position: absolute;
+width: 757px;
+height: 150px;
+left: 872px;
+top: 2582px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 98px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* QUOTE 3 */
+
+.quoted3 {/* Design Sticks */
+position: absolute;
+width: 1728px;
+height: 150px;
+left: 96px;
+top: 3097px;
+}
+
+.quote3 {/* QUOTE */
+position: absolute;
+height: 60px;
+left: 590px;
+top: 3142px;
+
+font-family: 'Kalam';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 57px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #F58549;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* CYBERPUNK LINK */
+
+.cyberpunktext {/* CYBERPUNK */
+position: absolute;
+width: 757px;
+height: 150px;
+left: 831px;
+top: 3612px;
+
+font-family: 'Khand';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 98px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.cyberpunkgallery {/* CYBERPUNK GALLERY */
+position: absolute;
+width: 1247px;
+height: 704px;
+left: 336px;
+top: 3335px;
+}
+
+/*----------------------------------------------------------------------*/
+
+/* COPYRIGHT */
+
+.designcopy { /* Design Sticks */
+    position: absolute;
+    width: 1728px;
+    height: 22px;
+    left: 85px;
+    top: 4170px;
+}
+
+.copy { /* COPYRIGHT @ Geremy S. Baylon */
+    position: absolute;
+    width: 703px;
+    height: 92px;
+    left: 776px;
+    top: 4190px;
+    font-family: 'Khand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
