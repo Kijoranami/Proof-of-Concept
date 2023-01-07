@@ -19,10 +19,6 @@
 
 /* ESSENTIAL */
 
-img:fullscreen {
-  transition: all 0.5s ease-in-out;
-}
-
 div {
   animation: fade 1s ease-in-out forwards;
 }
